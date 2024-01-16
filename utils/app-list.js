@@ -62,8 +62,8 @@ export const links = [
   },
   {
     title: "STORIES",
-    description: "Personal Blog, powered by gatsby. Also a jekyll theme.",
-    link: "https://squarezero.github.io/",
+    description: "Fiction, ballads, musings.",
+    link: "https://squarezero.vercel.app",
   },
   {
     title: "Youtube",
