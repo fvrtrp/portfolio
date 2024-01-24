@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from 'react';
+import { useState, useLayoutEffect } from 'react';
 import { useRouter } from 'next/navigation'
 import Threadify from "utils/threadify";
 import { externalLinks } from "utils/app-list";
@@ -8,7 +8,7 @@ export default function Custom404() {
   const router = useRouter()
   const [show404, set404] = useState(false);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const target = externalLinks.find((i) => i.link === location.pathname)
     if (target) {
       router.push(target.out);
