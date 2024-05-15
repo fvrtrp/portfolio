@@ -16,7 +16,7 @@ export default function Custom404() {
     else {
       set404(true);
     }
-  }, []);
+  }, [router]);
 
   if (!show404) {
     return null;
