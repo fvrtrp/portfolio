@@ -10,6 +10,11 @@ export const appList = [
     link: "https://chrome.google.com/webstore/detail/dash-transient-todo-app/ljheneifbckpafceajjbbbimiknkaeib",
   },
   {
+    title: "Player of words",
+    description: "Practice english word by word.",
+    link: "https://playerofwords.vercel.app",
+  },
+  {
     title: "Dot",
     description:
       "Front-end only messaging application to share interesting links and thoughts",
@@ -25,11 +30,6 @@ export const appList = [
     title: "Youtube Thumbnail Grabber",
     description: "Paste youtube links to get thumbnails",
     link: "https://chrome.google.com/webstore/detail/ytg-youtube-thumbnail-gra/kibologgkgfknmnbnomhagdjngckkcbb",
-  },
-  {
-    title: "Player of words",
-    description: "practice english word by word",
-    link: "https://surajk95.github.io/player-of-words/",
   },
   {
     title: "Player of numbers",
@@ -95,6 +95,10 @@ export const externalLinks = [
   {
     link: "/dash",
     out: "https://chrome.google.com/webstore/detail/dash-transient-todo-app/ljheneifbckpafceajjbbbimiknkaeib",
+  },
+  {
+    link: "/playerofwords",
+    out: "https://playerofwords.vercel.app",
   },
   {
     link: "/hunt-empyra",
