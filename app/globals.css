@@ -16,6 +16,8 @@
     padding: 3px 0px 3px 0;
     text-transform: uppercase;
     position: relative;
+    display: inline;
+    font-size: 1rem;
 }
 .appTitle:after {
     position: absolute;
@@ -34,6 +36,9 @@
 }
 .appItem:hover .appTitle:after {
     width: 100%;
+}
+.appDescription {
+    display: inline;
 }
 .navItem {
     position: relative;

@@ -17,14 +17,14 @@ export default function Home() {
             rel="noreferrer noopener"
           >
             <div className="appItem m-3">
-              <span className="appTitle font-bold text-hackergreen mr-2">
+              <h2 className="appTitle font-bold text-hackergreen mr-2">
                 {item.title}
-              </span>
-              <span
+              </h2>
+              <h3
                 className={`appDescription text-slate-50 text-sm ${robotomono.className}`}
               >
                 {item.description}
-              </span>
+              </h3>
             </div>
           </a>
         );
