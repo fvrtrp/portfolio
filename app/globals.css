@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.prose a {
+/* .prose a {
     text-decoration: none !important;
-}
+} */
 
 .appItem {
     /* display: flex;
