@@ -1,12 +1,14 @@
+import type { Metadata } from 'next'
 import Link from "next/link"
 import "./globals.css"
 import { spacemono } from "./fonts"
 import { Analytics } from "@/components/analytics"
 import { ThemeProvider } from "@/components/theme-provider"
 
-export const metadata = {
-  title: "Fever trip",
-  description: "Fever trip / fvrtrp - official website - surajk95 - suraj kumar kukati",
+export const metadata: Metadata = {
+  title: 'fvrtrp - Fevertrip portfolio and blog',
+  description: "Take a look at my portfolio and blog - fevertrip, or fvrtrp in short. I post about my projects, thoughts on AI, technology, journal my ideas etc.",
+  keywords: ['fevertrip', 'fvrtrp', 'fever trip', 'fevertrip blog', 'fvrtrp blog', 'fevertrip portfolio', 'fvrtrp portfolio'],
 }
 
 interface RootLayoutProps {

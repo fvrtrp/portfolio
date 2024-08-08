@@ -3,11 +3,6 @@ import Threadify from "../utils/threadify";
 import { appList, links } from "../utils/app-list";
 import { robotomono } from "./fonts";
 
-export const metadata: Metadata = {
-  title: 'Fever trip - FVRTRP',
-  description: "Take a look at my portfolio",
-}
-
 export default function Home() {
   return (
     <div className="prose nounderline dark:prose-invert">
