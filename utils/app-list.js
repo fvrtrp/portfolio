@@ -5,6 +5,12 @@ export const appList = [
     link: "https://fvrtrp.github.io/sesh/",
   },
   {
+    title: "Wordsta",
+    description:
+      "Tinder-like swip to learn English words, also a repo with popular word collections.",
+    link: "https://wordstaxyz.vercel.app/",
+  },
+  {
     title: "Dash",
     description: "Transient todo and notes extension for Chromium browsers",
     link: "https://chrome.google.com/webstore/detail/dash-transient-todo-app/ljheneifbckpafceajjbbbimiknkaeib",
@@ -40,12 +46,6 @@ export const appList = [
     title: "Darktionary",
     description: "Dictionary, but dark",
     link: "https://surajk95.github.io/darktionary/",
-  },
-  {
-    title: "Wordsta",
-    description:
-      "Web app to practice English words, also a repo with popular word collections.",
-    link: "https://github.com/fvrtrp/wordsta",
   },
 ];
 
