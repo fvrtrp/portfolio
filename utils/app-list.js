@@ -7,7 +7,7 @@ export const appList = [
   {
     title: "Wordsta",
     description:
-      "Tinder-like swip to learn English words, also a repo with popular word collections.",
+      "Tinder-like swipe to learn English words, also a repo with popular word collections.",
     link: "https://wordstaxyz.vercel.app/",
   },
   {
