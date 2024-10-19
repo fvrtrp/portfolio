@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { allPosts } from "@/.contentlayer/generated";
 import Link from "next/link";
-import { prata, spacemono } from "../fonts";
+import { playfair, spacemono } from "../fonts";
 
 export const metadata: Metadata = {
   title: 'Blog - Fever trip',
@@ -22,7 +22,7 @@ export default function BlogList() {
             {post.date.slice(0, 10)}
           </div>
           <Link href={post.slug}>
-            <h2 className={`${prata.className} text-hackergreen text-3xl`}>
+            <h2 className={`${playfair.className} text-hackergreen text-3xl`}>
               {post.title}
             </h2>
           </Link>

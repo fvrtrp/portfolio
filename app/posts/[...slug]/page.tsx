@@ -3,7 +3,7 @@ import { allPosts } from "contentlayer/generated";
 
 import { Metadata } from "next";
 import { Mdx } from "@/components/mdx-components";
-import { prata, spacemono, robotomono } from "@/app/fonts";
+import { spacemono, robotomono, playfair } from "@/app/fonts";
 
 interface PostProps {
   params: {
@@ -57,7 +57,7 @@ export default async function PostPage({ params }: PostProps) {
       <div className={`${spacemono.className} text-slate-500 text-xs`}>
         {post.date.slice(0, 10)}
       </div>
-      <h2 className={`mb-2 mt-1 ${prata.className} text-hackergreen text-3xl`}>
+      <h2 className={`mb-2 mt-1 ${playfair.className} text-hackergreen text-3xl`}>
         {post.title}
       </h2>
       {post.description && (

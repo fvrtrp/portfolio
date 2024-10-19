@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div className="prose nounderline dark:prose-invert">
       <Threadify text="fvrtrp" />
-      {/* <div className={`SectionTitle text-hackergreen text-3xl ${prata.className} mb-10`}>Apps</div> */}
       {appList.map((item, key) => {
         return (
           <a
