@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
         <h1 className="text-hackergreen">Privacy Policy</h1>
         
         <p>
-          ("I") operates https://fvrtrp.com (the "Site"). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.
+          (&ldquo;I&rdquo;) operates https://fvrtrp.com (the &ldquo;Site&rdquo;). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.
         </p>
         
         <p>
@@ -23,13 +23,13 @@ export default function PrivacyPolicy() {
         <h2 className="text-hackergreen">Log Data</h2>
         
         <p>
-          We do not collect information that your browser sends whenever you visit our Site ("Log Data"). Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics. We do not use third party services such as Google Analytics that collect, monitor and analyze this…
+          We do not collect information that your browser sends whenever you visit our Site (&ldquo;Log Data&rdquo;). Log Data may include information such as your computer&rsquo;s Internet Protocol (&ldquo;IP&rdquo;) address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics. We do not use third party services such as Google Analytics that collect, monitor and analyze this…
         </p>
 
         <h2 className="text-hackergreen">Cookies</h2>
         
         <p>
-          Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive. We do not use "cookies" to collect information.
+          Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer&rsquo;s hard drive. We do not use &ldquo;cookies&rdquo; to collect information.
         </p>
 
         <h2 className="text-hackergreen">Service Providers</h2>
@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
           This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
         </p>
 
-        <h2 className="text-hackergreen">Children's Privacy</h2>
+        <h2 className="text-hackergreen">Children&rsquo;s Privacy</h2>
         
         <p>
           These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
