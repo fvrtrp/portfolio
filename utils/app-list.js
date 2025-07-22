@@ -2,7 +2,7 @@ export const appList = [
   {
     title: "Sesh",
     description: "New tab extension for Google Chrome",
-    link: "https://fvrtrp.github.io/sesh/",
+    link: "/sesh",
   },
   {
     title: "Wordsta",
@@ -90,7 +90,7 @@ export const links = [
 export const externalLinks = [
   {
     link: "/sesh",
-    out: "https://fvrtrp.github.io/sesh/",
+    out: "/sesh",
   },
   {
     link: "/dash",

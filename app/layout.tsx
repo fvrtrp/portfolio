@@ -29,6 +29,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <nav className="ml-auto text-sm font-medium space-x-6 uppercase">
                   <Link href="/" className="navItem">Home</Link>
                   <Link href="/blog" className="navItem">Blog</Link>
+                  <Link href="/sesh" className="navItem">Sesh</Link>
                 </nav>
               </div>
             </header>

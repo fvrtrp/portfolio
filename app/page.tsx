@@ -8,12 +8,13 @@ export default function Home() {
     <div className="prose nounderline dark:prose-invert">
       <Threadify text="fvrtrp" />
       {appList.map((item, key) => {
+        const isInternalLink = item.link.startsWith('/');
         return (
           <a
             key={key}
             href={item.link}
-            target="_blank"
-            rel="noreferrer noopener"
+            target={isInternalLink ? "_self" : "_blank"}
+            rel={isInternalLink ? undefined : "noreferrer noopener"}
           >
             <div className="appItem m-3">
               <h2 className="appTitle font-bold text-hackergreen mr-2">
