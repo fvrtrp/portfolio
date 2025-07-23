@@ -69,7 +69,7 @@ export default function SeshPage() {
           </h2>
           <p className="text-slate-300 leading-relaxed max-w-3xl mx-auto">
             <span style={{ color: '#92ff07' }}>Organize your tabs, windows, and bookmarks by simply dragging and dropping stuff.</span>{' '}
-          <br/>No more cluttered bookmarks bars or lost tabs - everything you need is just a click away.
+            <br/>No more cluttered bookmarks bars or lost tabs - everything you need is just a click away.
           </p>
         </div>
         <div className="mb-16 mt-4 text-xs text-center text-slate-300 leading-relaxed max-w-3xl mx-auto">
