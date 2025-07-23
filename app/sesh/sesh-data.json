@@ -1,49 +1,44 @@
 {
   "features": [
     {
-      "title": "Customizable New Tab Dashboard",
+      "title": "Beautiful New Tab Dashboard",
       "screenshot": "/sesh/screenshots/newtab-dashboard.png",
-      "description": "Transform your new tab page into a <span style='color: #92ff07'>personal productivity hub</span>. Choose from multiple beautiful themes including Ninja, Geometry, Zen, and Earth backgrounds. Add widgets like analog/digital clocks, countdown timers, quick links, search bars, and text notes to create your perfect workspace."
+      "description": "Transform your new tab page into a stunning <span style='color: #92ff07'>dashboard</span>. Your new tab dashboard becomes the perfect starting point for every browsing session, combining aesthetics with functionality."
     },
     {
-      "title": "Powerful Sessions Management",
-      "screenshot": "/sesh/screenshots/sessions-widget.png", 
-      "description": "The heart of Sesh - manage all your <span style='color: #92ff07'>tabs, windows, and bookmarks</span> in one intuitive interface. Drag and drop tabs between windows, organize them into custom folders, and never lose track of important pages again. Available both as a widget on your new tab page and as a popup (Alt/Option + S)."
+      "title": "Powerful Sessions Widget",
+      "screenshot": "/sesh/screenshots/sessions-widget.png",
+      "description": "The heart of Sesh - a comprehensive interface for managing <span style='color: #92ff07'>all your tabs, windows, and bookmarks</span>. Available as both a dashboard widget and popup <span style='color: #92ff07'>(Alt/Option + S)</span> for instant access."
     },
     {
-      "title": "Smart Bookmark Organization", 
-      "screenshot": "/sesh/screenshots/bookmarks-sidebar.png",
-      "description": "Create custom bookmark folders and <span style='color: #92ff07'>drag tabs directly into them</span>. Search through your saved tabs, organize by projects or topics, and access everything with a single click. No more digging through cluttered bookmark bars."
+      "title": "Drag & Drop Tab Management", 
+      "screenshot": "/sesh/screenshots/drag-and-drop-tabs-bookmarks.png",
+      "description": "Effortlessly organize your browsing with <span style='color: #92ff07'>intuitive drag and drop</span>. Move tabs between windows, drop them into bookmark folders, and reorganize your entire workspace with simple mouse gestures."
     },
     {
-      "title": "Advanced Tab Operations",
-      "screenshot": "/sesh/screenshots/tab-operations.png",
-      "description": "Bulk select tabs across multiple windows, <span style='color: #92ff07'>move them between windows</span>, close multiple tabs at once, or save entire browsing sessions. Pin important tabs, mute noisy ones, and keep your browser organized effortlessly."
+      "title": "Advanced Folder Customization", 
+      "screenshot": "/sesh/screenshots/folder-customization-icons-reorder-pin-sync.png",
+      "description": "Customize bookmark folders with <span style='color: #92ff07'>custom icons, reordering, pinning, and sync options, far beyond what you can do with the default browser</span>. Create a personalized organization system that matches your workflow and visual preferences."
     },
     {
-      "title": "Window Synchronization",
-      "screenshot": "/sesh/screenshots/window-sync.png", 
-      "description": "Sync browser windows with bookmark folders for <span style='color: #92ff07'>automatic organization</span>. When you add or remove tabs from a synced window, the corresponding bookmark folder updates automatically. Perfect for project-based browsing."
-    },
-    {
-      "title": "Quick Search & Navigation",
-      "screenshot": "/sesh/screenshots/search-features.png",
-      "description": "Find any tab or bookmark instantly with <span style='color: #92ff07'>powerful search functionality</span>. Search across all open tabs, bookmark folders, and saved sessions. Navigate with keyboard shortcuts and jump to any page in seconds."
-    },
-    {
-      "title": "Session Backup & Restore", 
-      "screenshot": "/sesh/screenshots/session-restore.png",
-      "description": "Never lose your work again. <span style='color: #92ff07'>Save entire browsing sessions</span> as bookmark folders, and restore them later with a single click. Perfect for research projects, work sessions, or when you need to switch contexts."
+      "title": "Pinned Bookmarks Access",
+      "screenshot": "/sesh/screenshots/pinned-bookmarks.png",
+      "description": "Quick access to your most important bookmarks with the <span style='color: #92ff07'>pinned bookmarks widget</span>. Keep your essential links always visible and organized on your new tab page."
     },
     {
       "title": "Flexible Widget System",
-      "screenshot": "/sesh/screenshots/widget-customization.png",
-      "description": "Customize your dashboard with a variety of widgets: <span style='color: #92ff07'>pinned bookmarks, search engines, countdown timers, clocks, and custom text notes</span>. Resize, reposition, and configure each widget to match your workflow perfectly."
+      "screenshot": "/sesh/screenshots/widgets.png",
+      "description": "Build your perfect dashboard with <span style='color: #92ff07'>customizable widgets</span>: analog/digital clocks, countdown timers, quick links, search bars, text notes, and more. <span style='color: #92ff07'>Resize and position each widget exactly where you want it.</span>"
     },
     {
-      "title": "Popup Interface & Quick Access",
-      "screenshot": "/sesh/screenshots/popup-interface.png",
-      "description": "Access Sesh instantly with <span style='color: #92ff07'>Alt/Option + S</span> from anywhere in your browser. The compact popup interface gives you full control over tabs, windows, and bookmarks without leaving your current page. Perfect for quick organization on the go."
+      "title": "Smart Widgets",
+      "screenshot": "/sesh/screenshots/search-features.png", 
+      "description": "Find anything instantly with the powerful <span style='color: #92ff07'>search widget</span> (supports <span style='color: #92ff07'>Google, DuckDuckGo, Grok, ChatGPT, Youtube etc.</span>). Save your favorite links with the <span style='color: #92ff07'>links widget</span>."
+    },
+    {
+      "title": "Themes for your style",
+      "screenshot": "/sesh/screenshots/themes.png", 
+      "description": "Choose from <span style='color: #92ff07'>beautiful themes</span> including Ninja, Geometry, Zen, Earth, and custom colors. Each theme provides a unique aesthetic."
     }
   ]
 } 

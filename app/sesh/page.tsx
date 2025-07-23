@@ -25,43 +25,57 @@ export default function SeshPage() {
       {/* Full-width main content */}
       <main className="w-full max-w-7xl mx-auto px-6 pb-12">
         {/* Header Section */}
-        <div className="text-center mb-12">
-          <div className="flex items-center justify-center gap-4 mb-6">
-            <img 
-              src="/sesh/sesh-logo.png" 
-              alt="Sesh Logo" 
-              className="w-16 h-16"
-            />
-            <h1 className="text-5xl font-bold" style={{ color: '#4eff3d' }}>
-            Sesh
-            </h1>
-          </div>
-          <div className="text-lg text-slate-300 leading-relaxed max-w-3xl mx-auto">
-            <p className="mb-4">
-            Press <span className="font-bold" style={{ color: '#92ff07' }}>Option + S (Mac)</span> or{' '}
-              <span className="font-bold" style={{ color: '#92ff07' }}>Alt + S (Windows)</span> to open the popup.
-            </p>
-            <p className="mb-4">
-            Sesh is 2 things:<br/>
-              <span className="font-bold" style={{ color: '#92ff07' }}>1. A New Tab Page</span> that&apos;s your own personal dashboard, 
-            with a customizable layout and a bunch of widgets to help you get things done.<br/>
-              <span className="font-bold" style={{ color: '#92ff07' }}>2. A popup on the browser toolbar</span> that helps you 
-            manage your tabs, windows, and bookmarks with an intuitive interface that keeps you organized and focused.
-            </p>
+        <div className="text-left mb-12">
+          <div className="flex items-center justify-between mb-6 max-w-4xl mx-auto">
+            <div className="flex items-center gap-4">
+              <img 
+                src="/sesh/sesh-logo.png" 
+                alt="Sesh Logo" 
+                className="w-16 h-16"
+              />
+              <h1 
+                className="text-5xl font-bold text-[#7e54fe] bg-gradient-to-br from-[#7e54fe] to-[#f667ce] bg-clip-text"
+                style={{
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                  backgroundClip: 'text',
+                  color: '#7e54fe' // Fallback for unsupported browsers
+                }}
+              >
+                Sesh
+              </h1>
+            </div>
+            <div className="flex-1 flex justify-end">
+              <a
+                href="https://chromewebstore.google.com/detail/sesh-beautiful-new-tab/jkgkocdjfgbigcifeofbbpjnghioplle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-sm"
+              >
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 7.568l-2.12 3.674c-.518-.09-1.05-.136-1.596-.136-1.07 0-2.07.21-2.97.59l2.12-3.674c1.168-.426 2.438-.454 3.566-.454zm-5.568 1.284c3.314 0 6 2.686 6 6s-2.686 6-6 6-6-2.686-6-6 2.686-6 6-6zm0 1.5c-2.485 0-4.5 2.015-4.5 4.5s2.015 4.5 4.5 4.5 4.5-2.015 4.5-4.5-2.015-4.5-4.5-4.5z"/>
+                </svg>
+                Get it on Chrome Store
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            </div>
           </div>
         </div>
 
         {/* Filter out the noise section */}
-        <div className="mb-16 text-center">
-          <h2 className="text-3xl font-bold mb-6" style={{ color: '#92ff07' }}>
-          Filter out the noise.
+        <div className="text-center">
+          <h2 className="text-xl font-bold mb-6">
+            Control your internet experience. Filter out the noise.
           </h2>
           <p className="text-slate-300 leading-relaxed max-w-3xl mx-auto">
-          Use the <span style={{ color: '#92ff07' }}>Sessions widget</span> on either the new tab page, 
-          or the browser toolbar, to organize your browsing sessions, create custom folders, and quickly 
-          access your most important resources,{' '}
-            <span style={{ color: '#92ff07' }}>all by simply dragging and dropping stuff.</span>{' '}
-          No more cluttered bookmarks bars or lost tabs - everything you need is just a click away.
+            <span style={{ color: '#92ff07' }}>Organize your tabs, windows, and bookmarks by simply dragging and dropping stuff.</span>{' '}
+          <br/>No more cluttered bookmarks bars or lost tabs - everything you need is just a click away.
+          </p>
+        </div>
+        <div className="mb-16 mt-4 text-xs text-center text-slate-300 leading-relaxed max-w-3xl mx-auto">
+          <p className="mb-4">
+          Press <span className="font-bold" style={{ color: '#92ff07' }}>Option + S (Mac)</span> or{' '}
+            <span className="font-bold" style={{ color: '#92ff07' }}>Alt + S (Windows)</span> to open the popup.
           </p>
         </div>
 
@@ -142,9 +156,9 @@ export default function SeshPage() {
             fvrtrp@gmail.com
             </a>
           .<br/>
-          You will see your name here, and on{' '}
-            <a href="https://fvrtrp.com/sesh" style={{ color: '#92ff07' }} className="hover:underline">
-            the website
+          You will see your name here, and on {' '}
+            <a href="https://chromewebstore.google.com/detail/sesh-beautiful-new-tab/jkgkocdjfgbigcifeofbbpjnghioplle" style={{ color: '#92ff07' }} className="hover:underline">
+            the extension
             </a>
           .
           </p>
