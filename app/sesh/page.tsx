@@ -74,7 +74,7 @@ export default function SeshPage() {
         <div className="mb-16 mt-4 text-xs text-center text-slate-300 leading-relaxed max-w-3xl mx-auto">
           <p className="mb-4">
           Press <span className="font-bold" style={{ color: '#92ff07' }}>Option + S (Mac)</span> or{' '}
-            <span className="font-bold" style={{ color: '#92ff07' }}>Alt + S (Windows)</span> to open the popup.
+            <span className="font-bold" style={{ color: '#92ff07' }}>Alt + S (Windows)</span> to open Sesh.
           </p>
         </div>
 

@@ -8,7 +8,7 @@
     {
       "title": "Powerful Sessions Widget",
       "screenshot": "/sesh/screenshots/sessions-widget.png",
-      "description": "The heart of Sesh - a comprehensive interface for managing <span style='color: #92ff07'>all your tabs, windows, and bookmarks</span>. Available as both a dashboard widget and popup <span style='color: #92ff07'>(Alt/Option + S)</span> for instant access."
+      "description": "The heart of Sesh - a comprehensive interface for managing <span style='color: #92ff07'>all your tabs, windows, and bookmarks</span>. Available as a dashboard widget or browser extension <span style='color: #92ff07'>(Alt/Option + S)</span> for instant access."
     },
     {
       "title": "Drag & Drop Tab Management", 
