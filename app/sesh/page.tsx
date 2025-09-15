@@ -195,7 +195,7 @@ export default function SeshPage() {
                   Pin the Extension
                 </h3>
                 <p className="text-slate-300 leading-relaxed">
-                  Make sure to pin the Sesh icon in the browser toolbar so it's easy to open the Sessions widget.
+                  Make sure to pin the Sesh icon in the browser toolbar so it&apos;s easy to open the Sessions widget.
                 </p>
               </div>
             </div>
