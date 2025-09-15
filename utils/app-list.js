@@ -1,7 +1,7 @@
 export const appList = [
   {
     title: "Sesh",
-    description: "New tab extension for Google Chrome",
+    description: "Sesh - Tabs / Bookmarks Manager and New Tab Dashboard for your browser",
     link: "/sesh",
   },
   {
