@@ -72,9 +72,17 @@ export default function SeshPage() {
           </p>
         </div>
         <div className="mb-16 mt-4 text-xs text-center text-slate-300 leading-relaxed max-w-3xl mx-auto">
-          <p className="mb-4">
+          <p className="mb-2">
           Press <span className="font-bold" style={{ color: '#92ff07' }}>Option + S (Mac)</span> or{' '}
             <span className="font-bold" style={{ color: '#92ff07' }}>Alt + S (Windows)</span> to open Sesh.
+          </p>
+          <p>
+            <a 
+              href="#troubleshooting" 
+              className="text-blue-400 hover:text-blue-300 underline transition-colors"
+            >
+              Not working? See troubleshooting tips below
+            </a>
           </p>
         </div>
 
@@ -121,6 +129,77 @@ export default function SeshPage() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Troubleshooting Section */}
+        <div id="troubleshooting" className="mt-24 pt-16 border-t border-gray-700">
+          <h2 className="text-2xl font-bold mb-8 text-center" style={{ color: '#92ff07' }}>
+            Troubleshooting
+          </h2>
+          
+          <div className="max-w-4xl mx-auto space-y-8">
+            {/* Enable Extension */}
+            <div className="flex flex-col lg:flex-row items-center gap-8">
+              <div className="flex-1 max-w-2xl">
+                <div className="w-full aspect-video bg-gray-800 rounded-2xl shadow-2xl border border-gray-700 relative overflow-hidden group">
+                  <button
+                    onClick={() => setExpandedImage('/sesh/screenshots/trouble-shoot-enable.png')}
+                    className="absolute top-4 right-4 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                    title="Expand image"
+                  >
+                    <Maximize2 className="w-5 h-5" />
+                  </button>
+                  
+                  <img
+                    src="/sesh/screenshots/troubleshoot-enable.png"
+                    alt="Enable Sesh Extension"
+                    className="w-full h-full object-cover rounded-2xl"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              
+              <div className="flex-1 space-y-4">
+                <h3 className="text-xl font-bold" style={{ color: '#92ff07' }}>
+                  Enable the Extension
+                </h3>
+                <p className="text-slate-300 leading-relaxed">
+                  If Sesh is not appearing on new tab / browser toolbar, go to extensions page and enable it manually.
+                </p>
+              </div>
+            </div>
+
+            {/* Pin Extension */}
+            <div className="flex flex-col lg:flex-row-reverse items-center gap-8">
+              <div className="flex-1 max-w-2xl">
+                <div className="w-full aspect-video bg-gray-800 rounded-2xl shadow-2xl border border-gray-700 relative overflow-hidden group">
+                  <button
+                    onClick={() => setExpandedImage('/sesh/screenshots/troubleshoot-pin.png')}
+                    className="absolute top-4 right-4 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                    title="Expand image"
+                  >
+                    <Maximize2 className="w-5 h-5" />
+                  </button>
+                  
+                  <img
+                    src="/sesh/screenshots/troubleshoot-pin.png"
+                    alt="Pin Sesh Extension"
+                    className="w-full h-full object-cover rounded-2xl"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              
+              <div className="flex-1 space-y-4">
+                <h3 className="text-xl font-bold" style={{ color: '#92ff07' }}>
+                  Pin the Extension
+                </h3>
+                <p className="text-slate-300 leading-relaxed">
+                  Make sure to pin the Sesh icon in the browser toolbar so it's easy to open the Sessions widget.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Support Section */}
