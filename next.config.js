@@ -13,6 +13,18 @@ const nextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/game',
+        destination: 'https://pew-pew-six.vercel.app/',
+      },
+      {
+        source: '/game/:path*',
+        destination: 'https://pew-pew-six.vercel.app/:path*',
+      },
+    ];
+  },
 };
 
 module.exports = withContentlayer(nextConfig);
