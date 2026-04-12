@@ -13,7 +13,7 @@ const nextConfig = {
       },
       {
         source: '/game',
-        destination: 'https://pew-pew-six.vercel.app/',
+        destination: 'https://fevertrip-game.vercel.app/',
         permanent: false,
       },
     ];
