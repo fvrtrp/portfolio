@@ -1,5 +1,10 @@
 export const appList = [
   {
+    title: "Fever Trip",
+    description: "FPS game made with threejs for @levelsio #vibejam. Fun to play. Try it out.",
+    link: "/game",
+  },
+  {
     title: "Sesh",
     description: "Sesh - Tabs / Bookmarks Manager and New Tab Dashboard for your browser",
     link: "/sesh",
